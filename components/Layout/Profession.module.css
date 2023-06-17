@@ -1,0 +1,53 @@
+.prof-container {
+  background-color: black;
+  height: 15rem;
+}
+
+.prof-container h3 {
+  color: #c58640;
+  text-align: center;
+}
+
+.prof-container p {
+  color: white;
+}
+
+.read-more {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.read-more p {
+  font-family: var(--sec-text);
+}
+
+.read-more button {
+  background-color: #c58640;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.prof-img {
+  background-color: rgb(252, 223, 177);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  width: 50%;
+  margin: -7rem auto 0;
+  position: relative;
+}
+
+@media (width <= 768px) {
+  .prof-container {
+    height: 18rem;
+  }
+
+  .prof-img {
+    padding: 1.5rem;
+    width: 80%;
+    margin: -5rem auto 0;
+  }
+}

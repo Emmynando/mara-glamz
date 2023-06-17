@@ -1,0 +1,55 @@
+.about-container {
+  background-color: rgb(252, 223, 177);
+  /* background-color: black; */
+  padding: 0.5rem;
+}
+
+.about {
+  background-color: rgb(252, 223, 177);
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1.5fr 2fr;
+  padding: 0.5rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: -10px;
+  object-fit: contain;
+}
+.textz h1 {
+  font-family: var(--pri-text);
+}
+
+.textz p,
+.textz button {
+  font-family: var(--sec-text);
+  font-weight: bolder;
+}
+.textz button {
+  background-color: var(--btn-clr);
+  border-color: transparent;
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 0.2rem 0.5rem;
+}
+
+@media (width <= 768px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .textz p {
+    width: 70%;
+  }
+}
+
+@media (width <= 660px) {
+}

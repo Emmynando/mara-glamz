@@ -1,0 +1,42 @@
+.contact-container {
+  background-color: var(--pri-clr);
+  padding: 1rem;
+}
+
+.schedule-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.appointment-links {
+  display: grid;
+  grid-template-columns: 0.2fr 2.5fr 0.2fr;
+  margin-bottom: 1rem;
+}
+.appointment > div {
+  margin-top: 1rem;
+}
+
+.appointment-links button {
+  background-color: inherit;
+  border: inherit;
+}
+
+@media (width <= 768px) {
+  .contact-container {
+    padding: 0.5rem;
+  }
+  .schedule-container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (width <= 660px) {
+  .schedule-container {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+}

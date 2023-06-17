@@ -1,0 +1,12 @@
+.product {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 1rem auto;
+}
