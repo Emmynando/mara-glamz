@@ -7,7 +7,7 @@ export default async function (req: any, res: any) {
   const { title, mail, message } = req.body;
 
   const transporter = nodemailer.createTransport({
-    port: "https://mara-glamz.vercel.app",
+    port: 587,
     service: "gmail",
     auth: {
       user: process.env.SMTP_MAIL,
