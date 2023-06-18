@@ -32,6 +32,5 @@ export default async function (req: any, res: any) {
     }
   });
 
-  console.log(title, mail, message);
   res.send("success");
 }
